@@ -1,5 +1,13 @@
+import { Profile } from 'components'
+import { GlobalStyle } from 'styles/GlobalStyle'
+
 function App() {
-  return <div>React JavaScript Boilerplate</div>
+  return (
+    <>
+      <GlobalStyle />
+      <Profile />
+    </>
+  )
 }
 
 export default App
