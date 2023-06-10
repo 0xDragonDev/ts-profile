@@ -60,7 +60,12 @@ function ProfileHeader(props: Props) {
       {!active && (
         <S.Social>
           {profile.socialMedia.map((media) => (
-            <S.SocialLink key={media.name} href={media.url} title={media.name}>
+            <S.SocialLink
+              key={media.name}
+              href={media.url}
+              title={media.name}
+              target="_blank"
+            >
               {Icons[media.name]?.()}
             </S.SocialLink>
           ))}

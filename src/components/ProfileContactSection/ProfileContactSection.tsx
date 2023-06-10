@@ -24,7 +24,12 @@ function ProfileContactSection(props: Props) {
           <S.Description>
             Para contatos profissionais ou freelas, sinta-se à vontade para me
             contatar pelo{' '}
-            <a href={linkedinUrl} title="Meu perfil do linkedin">
+            <a
+              href={linkedinUrl}
+              title="Meu perfil do linkedin"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
             . Estou sempre aberto a novas conexões e oportunidades de
