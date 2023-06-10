@@ -61,10 +61,3 @@ export const ItemPeriod = styled.div`
   color: #6f6f7b;
   margin-bottom: 5px;
 `
-
-export const ItemDesc = styled.div`
-  font-size: 13px;
-  color: #6f6f7b;
-  line-height: 1.5;
-  font-family: 'DM Sans', sans-serif;
-`
