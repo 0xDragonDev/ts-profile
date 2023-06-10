@@ -17,7 +17,7 @@
     "coverage-test:watch": "jest --coverage --watch --maxWorkers=25%",
     "generate:component": "plop component --plopfile ./generators/plopfile.cjs",
     "generate:hook": "plop hook --plopfile ./generators/plopfile.cjs",
-    "gh-deploy": "yarn build && git add --all && git cm -m \"feat: build project\" && git ps origin master"
+    "gh-pages:deploy": "yarn build && git add --all && git cm -m \"feat: build project\" && git ps origin master"
   },
   "dependencies": {
     "react": "^18.2.0",
