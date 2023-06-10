@@ -48,7 +48,7 @@ function ProfileHeader(props: Props) {
           active={active}
           data-id="dsdas"
           style={{
-            backgroundImage: `url(/img/bg2.jpg)`
+            backgroundImage: `url(/img/header-bg.jpg)`
           }}
         />
 
