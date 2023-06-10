@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   ProfileAboutSection,
   ProfileContactSection,
@@ -6,25 +6,32 @@ import {
   ProfileHeader,
   ProfileMenu
 } from 'components'
-import * as S from './styles'
 import { profile, experiences } from 'data/profile.json'
+import * as S from './styles'
 
 function Profile() {
   const [activeSection, setActiveSection] = useState('about')
+
+  function resetContainerScroll() {
+    document.querySelector(S.Container)?.scrollTo(0, 0)
+  }
 
   function handleClick(section: string) {
     setActiveSection(section)
   }
 
+  useEffect(() => {
+    resetContainerScroll()
+  }, [activeSection])
+
   return (
-    <S.Container data-state={`#${activeSection}`}>
+    <S.Container id="container" data-state={`#${activeSection}`}>
       <ProfileHeader active={activeSection !== 'about'} {...profile} />
 
       <S.Content active={activeSection !== 'about'}>
         <ProfileAboutSection
           active={activeSection === 'about'}
           description={profile.description}
-          socialMedia={profile.socialMedia}
         />
 
         <ProfileExperienceSection
