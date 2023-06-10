@@ -15,7 +15,7 @@ function ProfileMenu(props: Props) {
         active={activeSection === 'about'}
         onClick={() => onClick('about')}
       >
-        ABOUT
+        Sobre
       </S.Button>
 
       <S.Button
@@ -23,7 +23,7 @@ function ProfileMenu(props: Props) {
         active={activeSection === 'experience'}
         onClick={() => onClick('experience')}
       >
-        EXPERIENCE
+        Experiências
       </S.Button>
 
       <S.Button
@@ -31,7 +31,7 @@ function ProfileMenu(props: Props) {
         active={activeSection === 'contact'}
         onClick={() => onClick('contact')}
       >
-        CONTACT
+        Contato
       </S.Button>
     </S.Container>
   )
