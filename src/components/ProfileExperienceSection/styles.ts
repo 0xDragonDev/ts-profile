@@ -11,9 +11,9 @@ export const Timeline = styled.div`
       rgba(81, 106, 204, 1) 100%
     );
     content: '';
-    left: 42px;
+    left: 12px;
     width: 2px;
-    top: 0;
+    top: 4px;
     height: 100%;
     position: absolute;
     content: '';
@@ -22,9 +22,9 @@ export const Timeline = styled.div`
 
 export const Item = styled.div`
   position: relative;
-  padding-left: 60px;
+  padding-left: 30px;
   padding-right: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   z-index: 1;
 
   &:last-child {
@@ -32,11 +32,11 @@ export const Item = styled.div`
   }
 
   &:after {
-    content: attr(data-year);
+    content: '';
     width: 10px;
     position: absolute;
-    top: 0;
-    left: 37px;
+    top: 4px;
+    left: 7px;
     width: 8px;
     height: 8px;
     line-height: 0.6;
@@ -52,6 +52,13 @@ export const Item = styled.div`
 export const ItemTitle = styled.div`
   font-weight: 500;
   font-size: 14px;
+  margin-bottom: 5px;
+`
+
+export const ItemPeriod = styled.div`
+  font-weight: 300;
+  font-size: 12px;
+  color: #6f6f7b;
   margin-bottom: 5px;
 `
 

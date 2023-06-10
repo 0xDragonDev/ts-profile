@@ -27,6 +27,7 @@ export const Button = styled.button<ButtonProps>`
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
+  text-transform: uppercase;
 
   &:hover {
     color: #2b2c48;
