@@ -54,7 +54,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: rgb(5, 19, 74);
+    color: #31479e;
 
     &:hover {
       text-decoration: none;

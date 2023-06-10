@@ -143,15 +143,13 @@ export const SocialLink = styled.a`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
-  background-color: rgba(93, 133, 193, 0.05);
+  background-color: rgba(93, 133, 193, 0.08);
   border-radius: 50%;
   margin-right: 10px;
+  transition: all 0.3s;
 
   &:hover {
-    svg {
-      fill: darken(rgb(165, 181, 206), 20%);
-    }
+    background-color: rgba(93, 133, 193, 0.12);
   }
 
   &:last-child {
@@ -160,7 +158,7 @@ export const SocialLink = styled.a`
 `
 
 export const SocialIcon = styled.svg`
-  fill: rgb(165, 181, 206);
+  fill: #778fb4;
   width: 16px;
   display: block;
   transition: 0.3s;
