@@ -5,7 +5,7 @@ type ContainerProps = {
 }
 
 export const Container = styled.div<ContainerProps>`
-  max-width: 340px;
+  max-width: 360px;
   margin: auto;
   overflow-y: auto;
   position: relative;
