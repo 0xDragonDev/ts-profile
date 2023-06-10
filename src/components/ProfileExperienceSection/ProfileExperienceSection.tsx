@@ -19,7 +19,7 @@ function ProfileExperienceSection(props: Props) {
   return (
     <Section active={active} id="experience">
       <Content>
-        <Title>EXPERIÊNCIAS PROFISSIONAIS</Title>
+        <Title>Experiências Profissionais</Title>
 
         <S.Timeline>
           {experiences.map((experience) => (

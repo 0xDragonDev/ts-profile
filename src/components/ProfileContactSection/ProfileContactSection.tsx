@@ -1,4 +1,5 @@
 import { Content, Section, Title } from 'styles'
+import { profile } from 'data/profile.json'
 import * as S from './styles'
 
 type Props = {
@@ -8,19 +9,29 @@ type Props = {
 function ProfileContactSection(props: Props) {
   const { active } = props
 
+  const linkedinUrl = profile.socialMedia.find(({ url }) => url)?.url
+
+  function handleClick() {
+    window.open(linkedinUrl, '_blank')
+  }
+
   return (
     <Section active={active} id="contact">
       <Content>
-        <Title>CONTACT</Title>
+        <Title>Contato</Title>
 
         <S.Wrapper>
           <S.Description>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-            et, maiores, dicta officia obcaecati praesentium consequatur optio
-            blanditiis dolore cupiditate odit vitae perferendis.
+            Para contatos profissionais ou freelas, sinta-se à vontade para me
+            contatar pelo{' '}
+            <a href={linkedinUrl} title="Meu perfil do linkedin">
+              LinkedIn
+            </a>
+            . Estou sempre aberto a novas conexões e oportunidades de
+            networking.
           </S.Description>
 
-          <S.Button>WORK TOGETHER</S.Button>
+          <S.Button onClick={handleClick}>Enviar mensagem</S.Button>
         </S.Wrapper>
       </Content>
     </Section>
