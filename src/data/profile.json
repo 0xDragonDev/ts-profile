@@ -1,40 +1,70 @@
 {
   "profile": {
     "name": "Eder Sampaio",
-    "jobTitle": "Front-End Developer",
-    "avatar": "https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
-    "description": "Whatever tattooed stumptown art party sriracha gentrify hashtag intelligentsia readymade schlitz brooklyn disrupt.",
+    "jobTitle": "Senior Front-End Engineer",
+    "avatar": "/img/profile.jpeg",
+    "description": "O que dizer sobre meu \"trabalho\"? Eu sou apaixonado pelo que faço e adoro ver como o resultado impacta a vida das pessoas. Observar o layout ganhando vida e tornando o dia a dia dos usuários mais fácil é uma experiência maravilhosa! Além disso, tenho muito prazer em ensinar e compartilhar meu conhecimento, pois isso também me permite aprender e aprimorar ainda mais.",
     "socialMedia": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com"
+        "url": "https://www.linkedin.com/in/ederssouza"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com"
+        "url": "https://github.com/ederssouza"
       }
     ]
   },
   "experiences": [
     {
-      "year": "2022",
-      "title": "Front-end Developer at JotForm",
-      "description": "Disrupt stumptown retro everyday carry unicorn."
+      "role": "Senior Front-End Engineer",
+      "company": "Trybe",
+      "year": "out de 2021 - jun de 2023"
     },
     {
-      "year": "2021",
-      "title": "Front-end Developer at JotForm",
-      "description": "Disrupt stumptown retro everyday carry unicorn."
+      "role": "Senior Front-End Developer",
+      "company": "99",
+      "year": "jan de 2019 - out de 2021"
     },
     {
-      "year": "2020",
-      "title": "Front-end Developer at JotForm",
-      "description": "Disrupt stumptown retro everyday carry unicorn."
+      "role": "Senior Front-End Developer",
+      "company": "Gold 360",
+      "year": "out de 2017 - jan de 2019"
     },
     {
-      "year": "2019",
-      "title": "Front-end Developer at JotForm",
-      "description": "Disrupt stumptown retro everyday carry unicorn."
+      "role": "Senior Front-End Developer",
+      "company": "GFT Group",
+      "year": "nov de 2015 - set de 2017"
+    },
+    {
+      "role": "Pleno Front-End Developer",
+      "company": "BRQ",
+      "year": "set de 2014 - nov de 2015"
+    },
+    {
+      "role": "Front-End Developer",
+      "company": "Agência MGF Arte Criação de Sites",
+      "year": "abr de 2013 - abr de 2014"
+    },
+    {
+      "role": "Front-End Developer / UX Designer",
+      "company": "Cast Instrumentos de Cordas",
+      "year": "jan de 2012 - jan de 2014"
+    },
+    {
+      "role": "Web Developer",
+      "company": "Valemobi",
+      "year": "mar de 2013 - mai de 2013"
+    },
+    {
+      "role": "Analista de Suporte Técnico Jr. HP",
+      "company": "Sitel do Brasil",
+      "year": "jun de 2009 - mar de 2013"
+    },
+    {
+      "role": "Front-End Developer",
+      "company": "CWSI Agência de Marketing e Publicidade ",
+      "year": "jan de 2012 - ago de 2012"
     }
   ]
 }
