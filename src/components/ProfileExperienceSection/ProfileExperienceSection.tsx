@@ -2,8 +2,9 @@ import { Content, Section, Title } from 'styles'
 import * as S from './styles'
 
 type Experience = {
+  role: string
+  company: string
   year: string
-  title: string
   description: string
 }
 
@@ -18,13 +19,15 @@ function ProfileExperienceSection(props: Props) {
   return (
     <Section active={active} id="experience">
       <Content>
-        <Title>WORK EXPERIENCE</Title>
+        <Title>EXPERIÊNCIAS PROFISSIONAIS</Title>
 
         <S.Timeline>
           {experiences.map((experience) => (
-            <S.Item key={experience.year} data-year={experience.year}>
-              <S.ItemTitle>{experience.year}</S.ItemTitle>
-              <S.ItemDesc>{experience.description}</S.ItemDesc>
+            <S.Item key={experience.year}>
+              <S.ItemTitle>
+                {experience.role} - {experience.company}
+              </S.ItemTitle>
+              <S.ItemPeriod>{experience.year}</S.ItemPeriod>
             </S.Item>
           ))}
         </S.Timeline>
