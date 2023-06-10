@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     color: #2b2c48;
     font-family: "Jost", sans-serif;
-    background-image: url(/img/main-bg.jpeg);
+    background-image: url(/profile/img/main-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
